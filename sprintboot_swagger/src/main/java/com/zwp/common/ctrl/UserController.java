@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
  
+/**
+ * 
+ * @author wezhao
+ *
+ */
 @RestController
 @RequestMapping("/user")
 @Api("userController相关api")

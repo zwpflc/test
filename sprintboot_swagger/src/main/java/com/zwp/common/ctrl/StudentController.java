@@ -19,7 +19,9 @@ import io.swagger.annotations.ApiOperation;
 import springfox.documentation.annotations.ApiIgnore;
  
 /**
- * Created by Administrator on 2017/9/13.
+ * 
+ * @author wezhao
+ *
  */
 @RestController
 @RequestMapping("api")

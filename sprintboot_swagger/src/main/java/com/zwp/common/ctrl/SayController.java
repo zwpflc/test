@@ -23,6 +23,11 @@ import io.swagger.annotations.ApiOperation;
 @Api(value = "SayController|一个用来测试swagger注解的控制器")
 public class SayController {
     
+	/**
+	 * 
+	 * @param userNumber
+	 * @return
+	 */
     @ResponseBody
     @RequestMapping(value ="/getUserName", method= RequestMethod.GET)
     @ApiOperation(value="根据用户编号获取用户姓名", notes="test: 仅1和2有正确返回")
