@@ -4,4 +4,4 @@ RemoteSystemsTempFiles//
 *.classpath
 target/
 *.settings
-
+.recommenders/
